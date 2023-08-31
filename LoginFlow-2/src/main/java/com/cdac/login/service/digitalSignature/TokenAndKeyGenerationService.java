@@ -35,7 +35,8 @@ public class TokenAndKeyGenerationService implements Serializable{
 	ObjectSerializationService objSerialization;
 	
 	public MultipartFile tokenCreationAndKeyGeneration(EmployeeRegistration employeeRegistrationObj) {
-		char[] tokenPin = "ytrewq".toCharArray();
+		//"dummyPassword" is the password
+		char[] tokenPin = "dummyPassword".toCharArray();
 		
 		/*	SUN version 19
 			SunRsaSign version 19
